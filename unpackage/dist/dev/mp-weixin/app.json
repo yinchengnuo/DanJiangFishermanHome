@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/fish/fish",
+    "pages/shop/shop",
+    "pages/tour/tour"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "丹江渔友之家",
+    "navigationBarBackgroundColor": "#E9E9E9",
+    "backgroundColor": "#E9E9E9"
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "plugins": {
+    "routePlan": {
+      "version": "1.0.19",
+      "provider": "wx50b5593e81dd937a"
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取您的位置，用于钓点及景点定位显示"
+    }
+  },
+  "usingComponents": {}
+}

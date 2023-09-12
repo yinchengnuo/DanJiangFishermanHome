@@ -1,0 +1,36 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "丹江渔友之家"
+			}
+		}, {
+			"path": "pages/fish/fish",
+			"style": {
+				"navigationBarTitleText": "渔友导航服务路线图"
+			}
+
+		}, {
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "渔友之家",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/tour/tour",
+			"style": {
+				"navigationBarTitleText": "旅友导航服务路线图"
+			}
+
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "丹江渔友之家",
+		"navigationBarBackgroundColor": "#E9E9E9",
+		"backgroundColor": "#E9E9E9"
+	},
+	"uniIdRouter": {}
+}
